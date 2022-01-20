@@ -3,3 +3,46 @@
   padding: 0px;
   margin: 0px;
 }
+
+/* About us section Start*/
+.about-section {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-section h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+.about-container1 {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-item {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-img-container {
+  margin: 0px 0px 20px 0px;
+}
+.about-img-container img {
+  width: 200px;
+}
+.about-head {
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+}
+.about-desc {
+  font-weight: 400;
+}
+/* About us section End*/
