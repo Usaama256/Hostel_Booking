@@ -1,0 +1,100 @@
+.pre{
+    display: flex;
+    padding: 10px;
+}
+*{
+    margin: 0;
+    background: #e0e0e0;
+}
+.container1,.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.read-more{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+button{
+    color: blue;
+    width: 5cm;
+    padding: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: brown;
+    color: blue;
+    
+}
+
+.cont p{
+    margin-top: 0px;
+    padding: 10px;   
+    background: white;
+    height: 4.4cm;
+
+}
+
+.container{
+    justify-content: center;
+}
+/* media queries */
+@media (max-width:1200px){
+
+}
+
+@media (max-width:992px){
+
+}
+
+@media (max-width:968px){
+    .pre{
+        display: flex;
+        padding: 10px;
+    }
+
+    .container1,.container2{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        
+    }
+    .myImg{
+        width: 3cm;
+        height: 5cm;
+    }
+
+
+    
+}
+@media (max-width:576px){
+    .pre{
+        display: flex;
+        padding: 10px;
+    }
+
+    .container1,.container2{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .myImg{
+        width: 5cm;
+        height: 5cm;
+    }
+
+    
+}
