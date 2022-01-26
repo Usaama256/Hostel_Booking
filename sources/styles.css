@@ -228,6 +228,75 @@ html {
   color: rgb(77, 157, 248);
 }
 
+
+/*students life starts here*/
+
+.pre{
+  display: flex;
+  padding: 10px;
+}
+*{
+  margin: 0;
+}
+.container1,.container2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.read-more{
+  text-align: center;
+  
+}
+.std-article{
+  text-align: center;
+  color: blue;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.read-more-articles{
+  color: blue;
+  width: 5cm;
+  padding: 10px;
+}
+
+.read-more-articles:hover{
+  cursor: pointer;
+  box-shadow: brown;
+  color: blue;
+  
+}
+
+.cont p{
+  margin-top: 0px;
+  padding: 10px;   
+  background: white;
+  height: 4.4cm;
+
+}
+
+.container{
+  justify-content: center;
+}
+
+.myImg{
+  width: 7cm;
+  height: 5cm;
+}
+
+.myImg:hover{
+  cursor: pointer;
+}
+.img:hover{
+  background-color: aquamarine;
+}
+
+/* students life ends here */
+
+
+
+
 /* FOOTER */
 .footer {
   background: rgb(190, 222, 235);
