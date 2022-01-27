@@ -285,6 +285,10 @@ html {
   padding: 12px 40px;
   font-size: 2rem;
   transition: all 0.5s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   background-color: rgb(77, 157, 248);
   border: 1.5px solid rgb(77, 157, 248);
   color: white;
@@ -296,7 +300,27 @@ html {
   border: 1.5px solid rgb(77, 157, 248);
   color: rgb(77, 157, 248);
 }
-
+.about-arrow {
+  display: none;
+}
+.btn-about:hover .about-arrow {
+  display: flex;
+  animation: about-arrow;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  transition: all 0.1s ease-in;
+}
+@keyframes about-arrow {
+  0% {
+    transform: translateX(-8px);
+  }
+  50% {
+    transform: translateX(-4px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 /*students life starts here*/
 
 .pre {
