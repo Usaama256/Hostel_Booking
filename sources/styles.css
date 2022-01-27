@@ -327,8 +327,8 @@ html {
   display: flex;
   padding: 10px;
 }
-* {
-  margin: 0;
+.std-h2{
+  text-align: center;
 }
 .container1,
 .container2 {
