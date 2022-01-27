@@ -305,12 +305,12 @@ html {
 }
 .btn-about:hover .about-arrow {
   display: flex;
-  animation: about-arrow;
+  animation: arrow-anim;
   animation-duration: 0.2s;
   animation-iteration-count: 1;
   transition: all 0.1s ease-in;
 }
-@keyframes about-arrow {
+@keyframes arrow-anim {
   0% {
     transform: translateX(-8px);
   }
